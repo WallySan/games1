@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0f;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #1a1a2e;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00f0ff88;
+  border: 2px solid #00f0ff33;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: #ffe600;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 8px #ffe600aa;
+  letter-spacing: 1.5px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #00f0ff;
+  background-color: #0d0d1a;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00ffcc;
+  box-shadow: 0 0 10px #00ffff88;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to right, #292d3e, #1a1e2e);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #00000088;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffffaa;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: #00ff88;
+  font-weight: bold;
+}
